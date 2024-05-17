@@ -28,13 +28,13 @@ const isPasswordVisible = ref(false)
         </template>
 
         <VCardTitle class="text-2xl font-weight-bold">
-          sneat
+          FINCH
         </VCardTitle>
       </VCardItem>
 
       <VCardText class="pt-2">
         <h5 class="text-h5 mb-1">
-          Welcome to sneat! 👋🏻
+          Welcome to FINCH! 👋🏻
         </h5>
         <p class="mb-0">
           Please sign-in to your account and start the adventure
@@ -49,7 +49,7 @@ const isPasswordVisible = ref(false)
               <VTextField
                 v-model="form.email"
                 autofocus
-                placeholder="johndoe@email.com"
+                placeholder="dupliacteid@email.com"
                 label="Email"
                 type="email"
               />
